@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.k2udacity.myappportfolio.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#ffdfeaf1"
+        android:showDividers="beginning|middle|end"
+        android:divider="@drawable/empty_tall_divider">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Nano Degree Apps"
+            android:textSize="@dimen/abc_select_dialog_padding_start_material"
+            android:textAlignment="center" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/media_streamer"
+            android:id="@+id/button"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/super_duo1"
+            android:id="@+id/button2"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/super_duo2"
+            android:id="@+id/button3"
+            android:layout_gravity="right"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ant_terminator"
+            android:id="@+id/button4"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/materialize"
+            android:id="@+id/button5"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_orange_dark"
+            android:onClick="showToast" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/capstone"
+            android:id="@+id/button6"
+            android:background="@android:color/holo_red_light"
+            android:onClick="showToast" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
