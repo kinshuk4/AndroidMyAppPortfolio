@@ -9,6 +9,5 @@ Creating the project for android nano degree udacity
 1. Clone this repository or download zip file.
 2. Open it with Android studio.
 
-Here is the screenshot:
 ![Screenshot of My App Portfolio](screenshots/myAppPortfolioSS1.png)
 
