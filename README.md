@@ -10,8 +10,5 @@ Creating the project for android nano degree udacity
 2. Open it with Android studio.
 
 Here is the screenshot:
+![Screenshot of My App Portfolio]:(screenshots/myAppPortfolioSS1.png)
 
-![Screenshot of My App Portfolio][screenshot]
-[screenshot]:
-(screenshots/myAppPortfolioSS1.png)
-"Screenshot of My Portfolio App"
