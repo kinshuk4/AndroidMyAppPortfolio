@@ -13,5 +13,5 @@ Here is the screenshot:
 
 ![Screenshot of My App Portfolio][screenshot]
 [screenshot]:
-(/master/screenshots/myAppPortfolioSS1.png)
+(/screenshots/myAppPortfolioSS1.png)
 "Screenshot of My Portfolio App"
